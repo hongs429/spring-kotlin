@@ -1,0 +1,17 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/crud
+    username: hongs
+    password: local1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show_sql: true
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+    open-in-view: false
